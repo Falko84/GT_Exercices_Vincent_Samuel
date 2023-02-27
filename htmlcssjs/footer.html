@@ -1,0 +1,95 @@
+<!--Réaliser un modèle de footer contenant toutes les informations importantes et classiques d'un footer-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <footer>
+        <div class="footer">
+            <div class="footer1">
+                <h3>À propos</h3>
+                <p>text de bas de page</p>
+            </div>
+            <div class="footer2">
+                <h3>Liens utiles</h3>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer3">
+                <h3>Newsletter</h3>
+                <p>text de bas de page</p>
+                <form action="">
+                    <input type="email" placeholder="Votre email">
+                    <input type="submit" value="S'inscrire">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+        }
+        footer{
+            background: #333;
+            color: #fff;
+            padding: 50px 0;
+        }
+        .footer{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer1{
+            width: 30%;
+        }
+        .footer1 h3{
+            color: #f00;
+            margin-bottom: 20px;
+        }
+        .footer2{
+            width: 30%;
+        }
+        .footer2 h3{
+            color: #f00;
+            margin-bottom: 20px;
+        }
+        .footer2 ul{
+            list-style: none;
+        }
+        .footer2 ul li{
+            margin-bottom: 10px;
+        }
+        .footer2 ul li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .footer3{
+            width: 30%;
+        }
+        .footer3 h3{
+            color: #f00;
+            margin-bottom: 20px;
+        }
+        .footer3 form{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+    
+</body>
+</html>
